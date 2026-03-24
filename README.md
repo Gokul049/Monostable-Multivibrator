@@ -11,6 +11,8 @@ To design and simulate a Monostable Multivibrator using NE555 in Proteus Design 
 •	CRO / Oscilloscope
 •	Connecting wires
 ## Circuit Diagram
+<img width="1585" height="850" alt="image" src="https://github.com/user-attachments/assets/be4d85aa-612b-4d32-ac6c-db6f6e1c3999" />
+
 Pin Connections:
 •	Pin 1 → Ground
 •	Pin 2 → Trigger (Connected to push button)
@@ -43,8 +45,11 @@ The NE555 operating in monostable mode acts as a one-shot pulse generator. It ha
 6.	Observe output pulse on CRO.
 7.	Measure pulse width.
 ## Tabulation
-S.No	        R (kΩ)	          C (µF)	        Theoretical Pulse Width	            Practical Pulse Width
+<img width="925" height="265" alt="image" src="https://github.com/user-attachments/assets/e56ea17f-04f9-4a04-8dca-aadb8014a0ae" />
+
 ## Waveform
+<img width="1364" height="871" alt="image" src="https://github.com/user-attachments/assets/0d2313e1-cef1-4ff1-b02e-37cb0b257d0d" />
+
 •	Trigger → Short negative pulse
 •	Output → Single positive pulse
 •	Capacitor voltage → Exponential charging waveform
@@ -58,9 +63,10 @@ The practical value closely matches the theoretical value.
 •	Increasing R or C increases pulse duration.
 •	Used in timers, delay circuits, and pulse generation applications.
 ## Viva Questions
-1.	What is a monostable multivibrator?
-2.	Write the pulse width formula.
-3.	What is the stable state of monostable?
-4.	Why is it called “one-shot”?
-5.	What happens if capacitor value increases?
+1.	What is a monostable multivibrator? A monostable multivibrator is a circuit having one stable state and one quasi-stable state. It produces a single output pulse when triggered.
+2.	Write the pulse width formula. T = 1.1 RC
+3.	What is the stable state of monostable? The stable state is LOW output.
+4.	Why is it called “one-shot”? Because it produces only one output pulse for each trigger input.
+5.	What happens if capacitor value increases? Pulse width increases.
+   
 
