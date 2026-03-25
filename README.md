@@ -69,4 +69,3 @@ The practical value closely matches the theoretical value.
 4.	Why is it called “one-shot”? Because it produces only one output pulse for each trigger input.
 5.	What happens if capacitor value increases? Pulse width increases.
    
-
